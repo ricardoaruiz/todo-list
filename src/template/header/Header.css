@@ -1,0 +1,12 @@
+.todo-list-header {
+    display: flex;
+    align-items: center;
+}
+.todo-list-header__logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.todo-list-header__logo a {
+    text-decoration: none;
+    color: #000;
+}

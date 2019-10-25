@@ -1,0 +1,21 @@
+.todo-button {
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-button.circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.todo-button:active {
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+}
+.todo-button:disabled {
+    cursor: not-allowed;
+}

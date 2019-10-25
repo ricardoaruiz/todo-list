@@ -1,0 +1,15 @@
+.todo-list-menu ul {
+    display: flex;
+}
+.todo-list-menu li {
+    list-style: none;
+    padding: 10px;
+}
+.todo-list-menu a {
+    text-decoration: none;
+    color: #000;
+} 
+.todo-list-menu li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
